@@ -1,4 +1,9 @@
+#this code will take in a beginning balance and interest rate
+#then use bisection search to determine the minimum payment
+
+#beginning balance
 balance = 999999
+#annual interest rate (set by you, not the fed!)
 annualInterestRate = 0.18
 
 monthlyInterestRate = annualInterestRate / 12
