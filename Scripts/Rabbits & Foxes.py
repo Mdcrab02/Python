@@ -2,6 +2,7 @@ import random
 import pylab
 
 # Global Variables
+#max/current rabbit population, current fox population
 MAXRABBITPOP = 1000
 CURRENTRABBITPOP = 500
 CURRENTFOXPOP = 30
