@@ -1,7 +1,11 @@
+#Enter the starting balance
 balance = 4213
+#Enter the interest rate
 annualInterestRate = 0.2
+#Enter the payment rate as a % of balance
 monthlyPaymentRate = 0.04
 
+#placeholder for total amount paid
 totalPaid = 0.0
 
 for i in range(1,13):
