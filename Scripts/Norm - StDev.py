@@ -25,3 +25,10 @@ def SumDiff(l):
         total = total + ((i - Mean(l))**2)
     return total
     
+def CountLen(l):
+    n = 0
+    for i in l:
+        n = n + 1
+    return n
+    
+print CountLen([1,2,3,4])      
