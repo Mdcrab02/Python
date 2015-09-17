@@ -1,3 +1,5 @@
+#This is needed for float variables to work correctly
+#I forgot I was still using Python 2.7.3
 from __future__ import division
 
 def Mean(l):
@@ -50,4 +52,4 @@ def NormStDev(l):
         newl.append((i-Mean(l)/StDev(l)))
     return newl
     
-print NormStDev([1,2,3])  
+#print NormStDev([1,2,3])  
