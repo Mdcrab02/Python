@@ -6,7 +6,9 @@ def Mean(l):
         n = n+1
     return total/n
 
-print Mean([1,2,3,4,5,6])
+#print Mean([1,2,3,4,5,6])
+def Sqrt(x):
+    return x**(0.5)
 
-#Let's add a test comment to see what GitHub does...
-#Now try this comment
+#print Sqrt(36)    
+ 
