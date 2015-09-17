@@ -18,3 +18,10 @@ def Sum(l):
     return total
 
 #print Sum([1,2,3,4])
+
+def SumDiff(l):
+    total = 0.0
+    for i in l:
+        total = total + ((i - Mean(l))**2)
+    return total
+    
