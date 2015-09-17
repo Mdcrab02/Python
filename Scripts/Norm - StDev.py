@@ -1,3 +1,5 @@
+from __future__ import division
+
 def Mean(l):
     n = 0
     total = 0.0
@@ -31,4 +33,13 @@ def CountLen(l):
         n = n + 1
     return n
     
-print CountLen([1,2,3,4])      
+#print CountLen([1,2,3,4])   
+
+def variance(l):
+    newN = CountLen(l) - 1
+    return SumDiff(l)/newN
+
+def StDev(l):
+    return variance(l)**0.5
+    
+#print StDev([1,2,3,4])  
