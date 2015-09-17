@@ -42,4 +42,12 @@ def variance(l):
 def StDev(l):
     return variance(l)**0.5
     
-#print StDev([1,2,3,4])  
+#print StDev([1,2,3,4])
+
+def NormStDev(l):
+    newl = []
+    for i in l:
+        newl.append((i-Mean(l)/StDev(l)))
+    return newl
+    
+print NormStDev([1,2,3])  
